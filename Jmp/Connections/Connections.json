@@ -1,0 +1,52 @@
+{
+  "28912515-15e7-49db-82e6-3587109d3d09": {
+    "appActions": [
+      "MyProfile"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1672/1.0.1672.3545/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "28912515-15e7-49db-82e6-3587109d3d09"
+  },
+  "8c54ac31-e277-49ee-a38c-e4ba4fd07b04": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1674/1.0.1674.3602/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://jgcgroup.sharepoint.com/sites/FSODepartment-71_DX": {
+        "dataSources": {
+          "Jmp_Menu_det": {
+            "tableName": "3648e48c-1390-450d-9d93-916e465bd434"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Jmp_Menu_det"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8c54ac31-e277-49ee-a38c-e4ba4fd07b04"
+  }
+}
