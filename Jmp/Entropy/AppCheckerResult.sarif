@@ -374,36 +374,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "JmpHome.Container1.Gallery2.NextArrow2_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "JmpHome.Container1.Gallery2.NextArrow2_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "JmpHome",
-                "type": "JmpHome.Container1.Gallery2.NextArrow2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "JmpHome.Container1.Gallery2.NextArrow2_1.TabIndex"
                 }
               ],
@@ -434,49 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "JmpHome.Container2.Icon3.AccessibleLabel"
+                  "fullyQualifiedName": "JmpHome.Container1.Gallery2.NextArrow2_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "JmpHome.Container2.Icon3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "JmpHome",
-                "type": "JmpHome.Container2.Icon3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "JmpHome.Container2.Icon3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "JmpHome.Container2.Icon3.TabIndex",
+                  "fullyQualifiedName": "JmpHome.Container1.Gallery2.NextArrow2_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "JmpHome",
-                "type": "JmpHome.Container2.Icon3"
+                "type": "JmpHome.Container1.Gallery2.NextArrow2_2"
               }
             }
           ],
@@ -578,6 +518,66 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "JmpHome.Container2.Icon3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "JmpHome.Container2.Icon3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "JmpHome",
+                "type": "JmpHome.Container2.Icon3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "JmpHome.Container2.Icon3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "JmpHome.Container2.Icon3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "JmpHome",
+                "type": "JmpHome.Container2.Icon3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [

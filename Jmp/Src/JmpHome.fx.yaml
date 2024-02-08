@@ -670,7 +670,9 @@ JmpHome As screen:
         Button3 As button:
             Fill: =RGBA(0, 134, 208, 1)
             Height: =37
-            OnSelect: =SubmitForm(Form1);
+            OnSelect: |-
+                =SubmitForm(Form1);
+                Set(showMenuEdit,false);
             Size: =12
             Text: ="Update"
             Width: =110
